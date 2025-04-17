@@ -1,0 +1,114 @@
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 84%;
+  padding: 0 0 0 0;
+}
+
+hr {
+  margin-top: 0;
+  size: 5px;
+}
+
+section {
+  display: flex;
+  img {
+    width: 100px;
+    height: 100px;
+  }
+
+  h1 {
+    padding: 10px;
+  }
+  h2 {
+    padding: 10px 250px 10px 10px;
+    border-radius: 10px;
+    text-transform: uppercase;
+  }
+}
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.card-children {
+  background: rgb(223, 217, 217);
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 6px 6px 10px rgba(0, 0, 0, 72%);
+  width: 400px;
+
+  text-align: center;
+  float: right;
+}
+
+h3 {
+  font-size: 1em;
+  background: black;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.photo-card {
+  width: 100px;
+  display: flex;
+}
+
+.text-box {
+  font-size: 0.8em;
+  color: white;
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20px;
+  width: 80px;
+}
+p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+button {
+  display: flex;
+  float: right;
+  background: black;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: gray;
+}
+
+@media screen and (max-width: 580px) {
+  section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .card-children {
+    width: 100%;
+  }
+}

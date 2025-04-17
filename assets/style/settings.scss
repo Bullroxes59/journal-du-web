@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "AlfaSlabOne-Regular";
+  src: url(../font/AlfaSlabOne-Regular.ttf);
+}
+
+* {
+  font-family: "AlfaSlabOne-Regular";
+  box-sizing: border-box;
+}
+
+body {
+  background: url(../img/fond.webp);
+  font-family: "AlfaSlabOne-Regular";
+}

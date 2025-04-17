@@ -1,0 +1,154 @@
+@font-face {
+  font-family: "AlfaSlabOne-Regular";
+  src: url(../font/AlfaSlabOne-Regular.ttf);
+}
+* {
+  font-family: "AlfaSlabOne-Regular";
+  box-sizing: border-box;
+}
+
+body {
+  background: url(../img/fond.webp);
+  font-family: "AlfaSlabOne-Regular";
+}
+
+header {
+  background: black;
+  color: white;
+}
+
+hr {
+  background: rgb(150, 29, 29);
+}
+
+div img {
+  color: aqua;
+}
+
+Section img {
+  filter: contrast(10%);
+}
+Section span {
+  color: gray;
+}
+Section h2 {
+  background: black;
+  color: white;
+}
+Section h4 {
+  color: gray;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 84%;
+  padding: 0 0 0 0;
+}
+
+hr {
+  margin-top: 0;
+  size: 5px;
+}
+
+section {
+  display: flex;
+}
+section img {
+  width: 100px;
+  height: 100px;
+}
+section h1 {
+  padding: 10px;
+}
+section h2 {
+  padding: 10px 250px 10px 10px;
+  border-radius: 10px;
+  text-transform: uppercase;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.card-children {
+  background: rgb(223, 217, 217);
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.72);
+  width: 400px;
+  text-align: center;
+  float: right;
+}
+
+h3 {
+  font-size: 1em;
+  background: black;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.photo-card {
+  width: 100px;
+  display: flex;
+}
+
+.text-box {
+  font-size: 0.8em;
+  color: white;
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20px;
+  width: 80px;
+}
+
+p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+button {
+  display: flex;
+  float: right;
+  background: black;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: gray;
+}
+
+@media screen and (max-width: 580px) {
+  section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+  }
+  .card-children {
+    width: 100%;
+  }
+}/*# sourceMappingURL=style.css.map */

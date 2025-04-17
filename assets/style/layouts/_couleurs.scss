@@ -1,0 +1,31 @@
+header {
+  background: black;
+  color: white;
+}
+
+hr {
+  background: rgb(150, 29, 29);
+}
+
+div {
+  img {
+    color: aqua;
+  }
+}
+
+Section {
+  img {
+    filter: contrast(10%);
+  }
+  span {
+    color: gray;
+  }
+
+  h2 {
+    background: black;
+    color: white;
+  }
+  h4 {
+    color: gray;
+  }
+}
